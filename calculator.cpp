@@ -47,5 +47,15 @@ int main()
         cout << "====================" << endl;
         cout << "Masukan menu pilihan : ";
         cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1 : 
+        
+            break;
+        
+        default:
+            break;
+        }
     } while (pilihan != 5);
 }
