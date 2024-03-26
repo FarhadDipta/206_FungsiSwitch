@@ -74,7 +74,9 @@ int main()
             break;
         
         default:
+            cout << "Pilihan tidak ada" << endl;
             break;
         }
+        
     } while (pilihan != 5);
 }
